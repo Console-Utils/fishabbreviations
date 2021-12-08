@@ -1,4 +1,4 @@
-function _fish_2D_general_2D_abbreviations_2D_util_install --on-event fish_2D_general_2D_abbreviations_2D_util_install
+function _fishabbreviations_install --on-event fishabbreviations_install
   abbr --add -- e echo
   abbr --add -- pf printf
 
@@ -14,7 +14,7 @@ function _fish_2D_general_2D_abbreviations_2D_util_install --on-event fish_2D_ge
   abbr --add -- gun 'rm -rf .git'
 end
 
-function _fish_2D_general_2D_abbreviations_2D_util_uninstall --on-event fish_2D_general_2D_abbreviations_2D_util_uninstall
+function _fishabbreviations_uninstall --on-event fishabbreviations_uninstall
   abbr --erase -- e pf
   abbr --erase -- i w f
   abbr --erase -- gcl gfe gin gsw gsy gun
