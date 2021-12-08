@@ -26,7 +26,7 @@ Remove:
 fisher remove Console-Utils/fish-general-abbreviations-util
 ```
 
-## Aliases
+## Abbreviations
 
 The following universal abbreviations are provided:
 
