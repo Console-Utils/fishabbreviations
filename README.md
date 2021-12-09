@@ -1,5 +1,7 @@
 # Fish general abbreviations
 
+[![Continuous Integration](https://github.com/Console-Utils/fishabbreviations/actions/workflows/ci.yml/badge.svg)](https://github.com/Console-Utils/fishabbreviations/actions/workflows/ci.yml)
+
 ## Description
 
 Tool to add general abbreviations.
