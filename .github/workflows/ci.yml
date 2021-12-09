@@ -13,6 +13,7 @@ jobs:
       - name: lint
         run: |
           sudo apt-get install fish
+          shopt -s globstar
           fish --no-execute **.fish
   
   markdown-lint:
