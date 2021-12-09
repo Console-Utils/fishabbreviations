@@ -1,5 +1,7 @@
 # Fish general abbreviations
 
+[![Continuous Integration](https://github.com/Console-Utils/fishabbreviations/actions/workflows/ci.yml/badge.svg)](https://github.com/Console-Utils/fishabbreviations/actions/workflows/ci.yml)
+
 ## Description
 
 Tool to add general abbreviations.
@@ -30,7 +32,6 @@ fisher remove Console-Utils/fish-general-abbreviations-util
 
 The following universal abbreviations are provided:
 
-
 - `e` for `echo`: [e]cho
 - `pf` for `printf`: [p]rint[f]
 - `i` for `'if test'`: [i]f
@@ -42,4 +43,3 @@ The following universal abbreviations are provided:
 - `gsw` for `'git switch'`: [g]it [sw]itch
 - `gsy` for `'git pull && git push'`: [g]it [sy]nc
 - `gun` for `'rm -rf .git'`: [g]it [un]init
-
