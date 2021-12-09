@@ -4,7 +4,17 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
-jobs:  
+jobs:
+  fish-lint:
+    runs-on: ubuntu-20.04
+    
+    steps:
+      - uses: actions/checkout@v2
+      - name: lint
+        run: |
+          sudo apt-get install fish
+          fish --no-execute **.fish
+  
   markdown-lint:
     runs-on: ubuntu-20.04
     
